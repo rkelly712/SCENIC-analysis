@@ -16,6 +16,7 @@ if (grepl("FNM-S105936",Sys.info()['nodename'])) {
   directory$output<-"/data/kellyrc/SCENIC+/output"
   directory$r_scripts<-"/data/kellyrc/SCENIC+/scripts/r_scripts"
   directory$bash_scripts<-"/data/kellyrc/SCENIC+/scripts/bash_scripts"
+  directory$objects<-"/data/kellyrc/SCENIC+/objects"
   print("Home Computer")
   setwd(directory$basedir)
   paste0("Working Directory:",getwd())
@@ -27,6 +28,7 @@ if (grepl("FNM-S105936",Sys.info()['nodename'])) {
   directory$output<-"/data/kellyrc/SCENIC+/output"
   directory$r_scripts<-"/data/kellyrc/SCENIC+/scripts/r_scripts"
   directory$bash_scripts<-"/data/kellyrc/SCENIC+/scripts/bash_scripts"
+  directory$objects<-"/data/kellyrc/SCENIC+/objects"
   setwd(directory$basedir)
   print("You are working in the Biowulf Cluster")
   paste0("Working Directory:", getwd())
