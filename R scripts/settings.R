@@ -13,6 +13,7 @@ if (grepl("FNM-S105936",Sys.info()['nodename'])) {
   directory$basedir <- "/data/kellyrc/SCENIC+"
   directory$rna <- "/data/kellyrc/SCENIC+/rna"
   directory$atac <-"/data/kellyrc/SCENIC+/atac"
+  directory$ArchR<-"/data/kellyrc/SCENIC+/atac/ftp1.babraham.ac.uk/data/processed/atac/archR/"
   directory$output<-"/data/kellyrc/SCENIC+/output"
   directory$r_scripts<-"/data/kellyrc/SCENIC+/scripts/r_scripts"
   directory$bash_scripts<-"/data/kellyrc/SCENIC+/scripts/bash_scripts"
@@ -25,6 +26,7 @@ if (grepl("FNM-S105936",Sys.info()['nodename'])) {
   directory$basedir <- "/data/kellyrc/SCENIC+"
   directory$rna <- "/data/kellyrc/SCENIC+/rna"
   directory$atac <-"/data/kellyrc/SCENIC+/atac"
+  directory$ArchR<-"/data/kellyrc/SCENIC+/atac/ftp1.babraham.ac.uk/data/processed/atac/archR/"
   directory$output<-"/data/kellyrc/SCENIC+/output"
   directory$r_scripts<-"/data/kellyrc/SCENIC+/scripts/r_scripts"
   directory$bash_scripts<-"/data/kellyrc/SCENIC+/scripts/bash_scripts"
@@ -37,3 +39,6 @@ if (grepl("FNM-S105936",Sys.info()['nodename'])) {
 } else {
   stop("Computer/node not recognised. Please check the naming convention in the settings.r file")
 }
+
+# Add code to load data?
+# add args?
